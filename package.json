@@ -8,7 +8,9 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  "homepage": "germandobler.github.io",
   "dependencies": {
+    "framer-motion": "^8.4.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.4"

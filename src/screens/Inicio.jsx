@@ -19,18 +19,20 @@ export default function Inicio() {
       </div>
       <div className="flex flex-wrap justify-around gap-10 pt-[150px] ">
         <div className="flex-col ">
-          <h2 className="text-4xl font-extrabold text-gray-500">🖐Hola, me llamo</h2>
-          <h1 className="text-7xl font-extrabold text-white mt-4">German Dobler.</h1>
-          <h1 className="text-7xl font-extrabold text-[#FF8E5E] mt-4">Técnico</h1>
-          <h1 className="text-7xl font-extrabold text-[#FF8E5E]">Programador</h1>
-          <h1 className="text-7xl font-extrabold text-[#FF8E5E]">Full Stack.</h1>
-          <h1 className="text-2xl font-extrabold text-white w-[500px] mt-4">Soy Desarrollador Web con conocimientos en lenguajes PHP, JavaScript, HTML 5, CSS (Bootstrap, Tailwind), SQL, NoSQL, frameworks Yii 2/React JS, Vite JS/React Native </h1>
+          <p className="text-4xl font-extrabold text-gray-500">🖐Hola, me llamo</p>
+          <p className="text-7xl font-extrabold text-white mt-4">German Dobler.</p>
+          <p className="text-7xl font-extrabold text-[#FF8E5E] mt-4">Técnico</p>
+          <p className="text-7xl font-extrabold text-[#FF8E5E]">Programador</p>
+          <p className="text-7xl font-extrabold text-[#FF8E5E]">Full Stack.</p>
+          <p className="text-2xl text-white w-[500px] mt-4">Soy Desarrollador Web con conocimientos en lenguajes PHP, JavaScript, HTML 5, CSS (Bootstrap, Tailwind), SQL, NoSQL, frameworks Yii 2/React JS, Vite JS/React Native </p>
         </div>
         <div className="flex justify-center items-center" >
           <img src={Yo} alt="Yo" className="w-[300px] md:h-[550px] md:w-[400px]" />
         </div>
       </div>
     </div>
+
+
   )
 }
 
