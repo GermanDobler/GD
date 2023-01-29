@@ -8,7 +8,7 @@ import Proyectos from "./screens/Proyectos";
 import { ThemeProvider } from "./context/styleContext";
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/GD",
     element: <Inicio />,
   },
   {

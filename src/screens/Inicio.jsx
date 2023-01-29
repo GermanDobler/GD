@@ -31,6 +31,7 @@ export default function Inicio() {
         </div>
       </div>
     </div>
+    
 
 
   )
